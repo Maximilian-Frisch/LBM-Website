@@ -133,24 +133,24 @@ $headers = 'From: '.$email_from."\r\n".
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:700|Satisfy" rel="stylesheet">
     <title>LBMM</title>
     <link class="loader" rel="shortcut icon" href="LBM Title2.ico" />
-    <link rel="stylesheet" href="/style/contactStyle.css">
+    <link rel="stylesheet" href="../index/style/contactStyle.css">
     
     <div class="centered">
-    <a href="/index/videos.html">
-    <img class="imgstopLeft" src="/images/LBM Video.svg" width="8%"></a>
+    <a href="../index/videos.html">
+    <img class="imgstopLeft" src="../index/images/LBM Video.svg" width="8%"></a>
     
-    <a href="/index/photo.html">
-    <img class="imgstop" src="/images/LBM Photo.svg" width="8%"></a>
+    <a href="../index/photo.html">
+    <img class="imgstop" src="../index/images/LBM Photo.svg" width="8%"></a>
     
     <a href="index.html">
-    <img class="imgs" src="/images/LBM-Logo Sq.svg" width="23%">
+    <img class="imgs" src="../index/images/LBM-Logo Sq.svg" width="23%">
     </a>
     
-    <a href="/index/contact.html">
-    <img class="imgstopLeft" src="/images/LBM Contact Inv.svg" width="8%"></a>
+    <a href="../index/contact.html">
+    <img class="imgstopLeft" src="../index/images/LBM Contact Inv.svg" width="8%"></a>
     
-    <a href="/index/about.html">
-    <img class="imgstop" src="/images/LBM About.svg" width="8%"></a>
+    <a href="../index/about.html">
+    <img class="imgstop" src="../index/images/LBM About.svg" width="8%"></a>
     </div>
     
 </head>
@@ -164,16 +164,16 @@ $headers = 'From: '.$email_from."\r\n".
        
         <br>
     <div class="dumb">
-        <img src="/images/LBM- Watermark.svg" width="15%">
+        <img src="../images/LBM- Watermark.svg" width="15%">
     </div>  
     <br>
     <div id="bottomTag">
         
     </div><div id="bottomTag">
         <a href="https://www.facebook.com/Lindsey-Ballou-Multi-Media-1357999744251125" target="_blank">
-        <img class="fb" src="/images/facebook.svg" width="3%"></a>
+        <img class="fb" src="../index/images/facebook.svg" width="3%"></a>
         <a href="https://www.instagram.com/lindseyballoumm/" target="_blank">
-            <img class="insta" src="/images/instagram.svg" width="3%"></a>
+            <img class="insta" src="../index/images/instagram.svg" width="3%"></a>
     </div>
     <br>
   
