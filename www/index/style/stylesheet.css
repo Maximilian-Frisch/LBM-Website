@@ -6,6 +6,7 @@ body {
     opacity: 1;
     transition: 2s opacity;
 }
+
 body.fade-out {
     opacity: 0;
     transition: none;
@@ -20,7 +21,6 @@ div.bodyFade {
     opacity: 0;
     transition: none;
 }
-
 
 .poop {
     text-align: center;
@@ -44,8 +44,6 @@ ul {
 .divide {
     text-align: center;
 }
-
-
 
 .poop2 {
     text-align: center;
@@ -101,7 +99,6 @@ body {
 }
 
 .topLayer {
-    float: left;
     text-align: center;
     padding-bottom: 2%;
 }
