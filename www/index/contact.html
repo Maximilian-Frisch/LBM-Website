@@ -25,20 +25,11 @@
         <a href="../index/about.html">
             <img class="imgstop" src="../index/images/LBM About.svg" width="8%"></a>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
 <body>
     <div class="bodyFade">
-        <script>
-            document.div.className += ' fade-out';
-        </script>
-        <script>
-            $(function() {
-                $('div').removeClass('bodyFade');
-            });
-        </script>
 
         <form id="contact" method="post" action="email.php">
             <div class="contactIntro">
@@ -78,6 +69,16 @@
 
         </div>
         <br><br>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            document.div.className += ' fade-out';
+        </script>
+        <script>
+            $(function() {
+                $('div').removeClass('bodyFade');
+            });
+        </script>
 </body>
 
 </html>
