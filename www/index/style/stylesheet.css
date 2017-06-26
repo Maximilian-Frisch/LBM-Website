@@ -2,6 +2,26 @@
     font-family: 'Raleway', serif;
 }
 
+body {
+    opacity: 1;
+    transition: 2s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+div {
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+div.bodyFade {
+    opacity: 0;
+    transition: none;
+}
+
+
 .poop {
     text-align: center;
 }
@@ -24,6 +44,8 @@ ul {
 .divide {
     text-align: center;
 }
+
+
 
 .poop2 {
     text-align: center;

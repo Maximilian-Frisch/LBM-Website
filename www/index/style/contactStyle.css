@@ -7,6 +7,16 @@ body {
     
 }
 
+div {
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+div.bodyFade {
+    opacity: 0;
+    transition: none;
+}
+
 .contactIntro{
     font-size: 20px;
     color:#00A6AD;

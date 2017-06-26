@@ -14,7 +14,7 @@
         <a href="../index/photo.html">
             <img class="imgstop" src="../index/images/LBM Photo Inv.svg" width="8%"></a>
 
-        <a href="index.html">
+        <a href="http://lindseyballou.com">
             <img class="imgs" src="../index/images/LBM-Logo Sq.svg" width="23%">
         </a>
 
@@ -24,6 +24,13 @@
         <a href="../index/about.html">
             <img class="imgstop" src="../index/images/LBM About.svg" width="8%"></a>
     </div>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='../unitegallery-master/package/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='../unitegallery-master/package/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='../unitegallery-master/package/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+	<link rel='stylesheet' href='../unitegallery-master/package/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
 
 </head>
 
@@ -35,22 +42,64 @@
         </p><br>
     </div>
 
-    <div class="centered">
-        <img src="/images/photos/paint/_MG_0628.jpg" width="30%">
-        <img src="/images/photos/paint/_MG_0629.jpg" width="30%">
-        <img src="/images/photos/paint/_MG_0655.jpg" width="30%">
-        <img src="/images/photos/paint/_MG_0729.jpg" width="30%">
-        <img src="/images/photos/paint/_MG_0752.jpg" width="30%">
+    <div id="gallery" style="display:none;">
+
+        <img alt="" src="../index/images/photos/paint/Smaller/_MG_0789.jpg"
+				data-image="../index/images/photos/paint/_MG_0789.jpg"
+				data-description="">
+			
+		<img alt="" src="../index/images/photos/paint/Smaller/_MG_0629.jpg"
+				data-image="../index/images/photos/paint/_MG_0629.jpg"
+				data-description="">
+
+        <img alt="" src="../index/images/photos/paint/Smaller/_MG_0655.jpg"
+				data-image="../index/images/photos/paint/_MG_0655.jpg"
+				data-description="">
+            
+        <img alt="" src="../index/images/photos/paint/Smaller/_MG_0729.jpg"
+				data-image="../index/images/photos/paint/_MG_0729.jpg"
+				data-description="">
+
+        <img alt="" src="../index/images/photos/paint/Smaller/_MG_0752.jpg"
+				data-image="../index/images/photos/paint/_MG_0752.jpg"
+				data-description="">
+            
+        <img alt="" src="../index/images/photos/paint/Smaller/_MG_0762.jpg"
+				data-image="../index/images/photos/paint/_MG_0762.jpg"
+				data-description="">
+
+       
+            
+        <img alt="" src="../index/images/photos/paint/Smaller/_MG_0798.jpg"
+				data-image="../index/images/photos/paint/_MG_0798.jpg"
+				data-description="">
+
+        <img alt="" src="../index/images/photos/paint/Smaller/IMG_7377.jpg"
+				data-image="../index/images/photos/paint/IMG_7377.JPG"
+				data-description="">
+
+        <img alt="" src="../index/images/photos/paint/Smaller/Singleton_Lindsey_E5-10.jpg"
+				data-image="../index/images/photos/paint/Singleton_Lindsey_E5-10.jpg"
+				data-description="">
+
     </div>
 
-    <div class="centered">
-        <img src="/images/photos/paint/_MG_0762.jpg" width="30%">
-        <img src="/images/photos/paint/_MG_0789.jpg" width="30%">
-        <img src="/images/photos/paint/_MG_0798.jpg" width="30%">
-        <img src="/images/photos/paint/IMG_7377.JPG" width="30%">
-        <img src="/images/photos/paint/Singleton_Lindsey_E5-10.jpg" width="30%">
-    </div>
+     <script type="text/javascript"> 
+			
+			jQuery(document).ready(function(){ 
+				jQuery("#gallery").unitegallery({
+                   
+                    tile_enable_icons:false,
+                    gallery_width:"100%",
+                    tiles_max_columns: 5,
+                    tiles_align:"center"
+                    
+                });
+			}); 
+		
+	</script>
 
+   
 
 
 

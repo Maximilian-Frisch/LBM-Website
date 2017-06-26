@@ -142,7 +142,7 @@ $headers = 'From: '.$email_from."\r\n".
     <a href="../index/photo.html">
     <img class="imgstop" src="../index/images/LBM Photo.svg" width="8%"></a>
     
-    <a href="index.html">
+    <a href="http://lindseyballou.com">
     <img class="imgs" src="../index/images/LBM-Logo Sq.svg" width="23%">
     </a>
     
